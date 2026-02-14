@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>To My Baby Adenike 💖</title>
+<style>
+body {
+    background: linear-gradient(to bottom, #ff9a9e, #fecfef);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Valentine Card */
+.card {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(255,0,0,0.4);
+    animation: fadeIn 2s ease;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff003c;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+
+/* Hearts Animation */
+.heart {
+    position: fixed;
+    color: red;
+    font-size: 20px;
+    animation: floatUp 6s linear infinite;
+}
+
+@keyframes floatUp {
+    0% { transform: translateY(100vh); opacity: 1; }
+    100% { transform: translateY(-10vh); opacity: 0; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+<h1>To My Baby Adenike 💖</h1>
+
+<p>My baby 🩷</p>
+
+<p>As I sit down to write this, my heart is filled with gratitude for you.  
+This month makes it one year since you came into my life, and honestly, it feels like one of the best chapters I’ve ever lived ✨</p>
+
+<p>You have brought me peace, laughter, and a kind of love I never knew I needed.  
+In your voice, I find comfort. In your smile, I find happiness. And in your heart, I find a home.  
+Thank you for staying, for understanding me, for loving me even when I am not perfect.</p>
+
+<p>This past year with you has taught me patience, care, and what it truly means to love someone deeply.  
+You’ve made me a better man, and I am proud to call you my girlfriend and my best friend.</p>
+
+<p>As we celebrate Valentine’s Day and approach our one-year anniversary, I just want you to know this:  
+<strong>I am committed to you.</strong> I want to grow with you, learn with you, and build something meaningful with you.  
+No matter what comes our way, I choose you—today, tomorrow, and always.</p>
+
+<p>I love you more than words can express, and I pray this is just the beginning of many beautiful years together 🫂💞</p>
+
+<p><b>Happy Valentine’s Day</b><br>
+ADENIKE, OMORONIKE, OLAMIDE, KORIBAT, AGBEKE, AMOKE, CHELSEA, IYABO, EYINJU IYA KORIBAT OMO SALAMI 😹☺️❤️</p>
+</div>
+
+<script>
+// Create floating hearts
+function createHeart() {
+    const heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.innerHTML = "❤️";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (10 + Math.random() * 30) + "px";
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+        heart.remove();
+    }, 6000);
+}
+
+setInterval(createHeart, 300);
+</script>
+
+</body>
+</html>
